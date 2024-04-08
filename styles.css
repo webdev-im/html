@@ -1,0 +1,132 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+} */
+/* 
+a {
+  text-decoration: none;
+  color: black;
+} */
+
+/* my text styles */
+/* 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: blue;
+}
+
+.pinkBigText {
+  color: pink;
+  font-size: 48px;
+  background-color: brown;
+  border: 5px dotted black;
+}
+
+.greenText {
+  color: green;
+}
+
+.regularText {
+  font-weight: 400;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+#changeMe {
+  color: rgb(255, 51, 201);
+}
+
+.winner {
+  color: gold;
+}
+
+.box {
+  width: 300px;
+  padding: 15px;
+  background-color: #1d1d1d;
+  border: 5px solid darkmagenta;
+}
+
+img[src*="IABG3IL"] {
+  height: 100px;
+}
+
+img[src*="WGxocG"] {
+  height: 100px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* footer styles */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid green;
+  height: 80vh;
+  padding: 0 10%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.top-footer {
+  display: flex;
+}
+
+.top-footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #006ce4;
+}
+
+.top-footer a:hover,
+.extranet a:hover {
+  color: #923e01;
+}
+
+.bottom-footer {
+  height: 20%;
+  margin-top: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.extranet a {
+  padding: 15px 0;
+  font-size: 15.4px;
+  color: #006ce4;
+  text-decoration: none;
+}
+
+.bottom-footer p {
+  font-size: 12px;
+}
+
+.gray-text {
+  color: #6b6b6b;
+}
+
+.image-links {
+  display: flex;
+  gap: 22px;
+}
+
+.bottom-footer img {
+  height: 22px;
+}
