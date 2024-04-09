@@ -1,75 +1,86 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-} */
-/* 
-a {
-  text-decoration: none;
-  color: black;
-} */
-
-/* my text styles */
-/* 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: blue;
-}
-
-.pinkBigText {
-  color: pink;
-  font-size: 48px;
-  background-color: brown;
-  border: 5px dotted black;
-}
-
-.greenText {
-  color: green;
-}
-
-.regularText {
-  font-weight: 400;
-}
-
-.pt-10 {
-  padding-top: 10px;
-}
-
-#changeMe {
-  color: rgb(255, 51, 201);
-}
-
-.winner {
-  color: gold;
-}
-
-.box {
-  width: 300px;
-  padding: 15px;
-  background-color: #1d1d1d;
-  border: 5px solid darkmagenta;
-}
-
-img[src*="IABG3IL"] {
-  height: 100px;
-}
-
-img[src*="WGxocG"] {
-  height: 100px;
-} */
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* main styles */
+
+section {
+  padding: 0 10%;
+}
+
+.offers {
+  margin-bottom: 10px;
+}
+
+.offers h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.offers p {
+  font-size: 12px;
+  color: rgb(93, 93, 93);
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  min-width: 100%;
+  min-height: 110px;
+}
+
+.left-card,
+.right-card {
+  width: 50%;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.left-card h4,
+.right-card h4 {
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.left-card p,
+.right-card p {
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+
+.left-card {
+  display: flex;
+  border: 1px solid rgb(222, 222, 222);
+}
+
+.left-card img {
+  width: 80px;
+}
+
+.right-card {
+  color: white;
+  background-size: 100% auto;
+  background-repeat: none;
+  background-image: url(https://r-xx.bstatic.com/xdata/images/xphoto/714x300/316455553.jpeg?k=33c0362560b6aa7ff9ba2afc3ef8d120728107cf56cd1c006fcf0da8c1821735&o=);
+}
+
+/* button styles */
+
+.blue-button {
+  min-height: 25px;
+  background-color: #006ce4;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  font-size: 10px;
+  padding: 0 10px;
+  font-weight: 600;
+}
 /* footer styles */
 
 footer {
@@ -122,7 +133,11 @@ footer {
 }
 
 .bottom-footer p {
-  font-size: 12px;
+  font-size: 11px;
+}
+
+.copyright {
+  width: 100%;
 }
 
 .gray-text {
