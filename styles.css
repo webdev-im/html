@@ -4,6 +4,47 @@
   box-sizing: border-box;
 }
 
+/* global classes */
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+/* header  */
+header {
+  background-color: #006ce4;
+}
+
+.logo-image img {
+  height: 40px;
+}
+
+.top-right-header img {
+  height: 25px;
+}
+
+.rounded-icon {
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.yellow-border {
+  border: 2px solid #ffb700;
+}
 /* main styles */
 
 section {
