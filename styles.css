@@ -10,6 +10,10 @@
   display: flex;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -18,13 +22,62 @@
   align-items: center;
 }
 
+.sm-gap {
+  gap: 5px;
+}
+
+.md-gap {
+  gap: 10px;
+}
+
 .small-text {
   font-size: 12px;
 }
 
+.blue {
+  background-color: #003b95;
+}
+
+.ph10 {
+  padding: 0 10%;
+}
+.yellow-border {
+  border: 2px solid #ffb700;
+}
+
+.yellow {
+  color: #ffb700;
+}
+
+.relative {
+  position: relative;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding: 2px 12px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.active-button {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 /* header  */
 header {
-  background-color: #006ce4;
+  height: 50vh;
+  color: white;
 }
 
 .logo-image img {
@@ -42,8 +95,46 @@ header {
   border-radius: 50%;
 }
 
-.yellow-border {
-  border: 2px solid #ffb700;
+.red-circle {
+  height: 13px;
+  width: 13px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.red-circle p {
+  font-size: 10px;
+  text-align: center;
+}
+
+.buttons {
+  font-size: 11px;
+}
+
+.buttons img {
+  height: 18px;
+}
+
+.top-header {
+  padding-top: 3%;
+}
+
+.bottom-header {
+  padding-bottom: 10%;
+}
+
+.bottom-header h1 {
+  font-size: 48px;
+}
+
+.bottom-header h2 {
+  font-weight: 200;
+  margin-top: 10px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 /* main styles */
 
